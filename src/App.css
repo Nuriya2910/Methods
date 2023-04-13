@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #260404;
+}
+
+.home input{
+    outline: none;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.home input:hover{
+    box-shadow: 10px 5px 5px rgb(193, 44, 44);
+}
+
+.home button{
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 24px;
+    background-color: rgb(188, 87, 87);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
